@@ -32,7 +32,7 @@ return certificates[certHash];
 }
 ```
 # Expected Output:
-```
+
 ![block ](https://github.com/user-attachments/assets/cabbd090-0b99-4ead-8836-828bfb486360)
 
 ![bb 2](https://github.com/user-attachments/assets/bda9e064-411a-433b-bb6c-b9ce2d2190c5)
@@ -46,7 +46,7 @@ High-Level Overview:
 ● Used to prevent fake certificates.
 ● Enables quick verification by employers or other institutions.
 ● Shows how blockchain can be used in education and credential verification.
-```
+
 # Result:
 Thus the experiment executed sucessfully.
 
