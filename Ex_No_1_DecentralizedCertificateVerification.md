@@ -1,8 +1,10 @@
 ### Experiment 1: Decentralized Certificate Verification
+NAME:JEECIKASRINA M
+REG NO:212223100015
 ## Aim:
   To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
 ## Algorithm:
-1. Deploy a smart contract where universities can issue certificates.
+1. Deploy a smart contract where universities can issue certificates. 
 2. Store a hash of certificate data on-chain.
 3. Provide a verification function that checks certificate authenticity.
 4. Users can verify the certificate by comparing the stored hash.
@@ -31,6 +33,12 @@ return certificates[certHash];
 ```
 # Expected Output:
 ```
+![block ](https://github.com/user-attachments/assets/cabbd090-0b99-4ead-8836-828bfb486360)
+
+![bb 2](https://github.com/user-attachments/assets/bda9e064-411a-433b-bb6c-b9ce2d2190c5)
+
+![bb](https://github.com/user-attachments/assets/593fe7c7-f0e9-4bdd-bae5-0153585cb834)
+
 ● When the university issues a certificate, it gets stored as a hash.
 ● A student or employer can verify the certificate by entering the details.
 ● If valid, it returns true; otherwise, false.
@@ -40,4 +48,5 @@ High-Level Overview:
 ● Shows how blockchain can be used in education and credential verification.
 ```
 # Result:
+Thus the experiment executed sucessfully.
 
