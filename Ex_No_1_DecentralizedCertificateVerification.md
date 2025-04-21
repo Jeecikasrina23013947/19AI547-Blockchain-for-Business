@@ -3,19 +3,28 @@ DATE:16.04.2024
 ## Aim:
   To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
 ## Algorithm:
-step1:
-Deploy a smart contract where universities can issue certificates. 
-Step2:
-Store a hash of certificate data on-chain.
-Step3:
-Provide a verification function that checks certificate authenticity.
-Step4:
-Users can verify the certificate by comparing the stored hash.
+Step 1:
+Deploy a smart contract on a blockchain platform (e.g., Ethereum) to issue and verify certificates.
+Step 2:
+Define a structure to store certificate details (ID, student name, course, issue date, certificate hash).
+Step 3:
+Universities issue certificates by submitting certificate details and storing the hash of the certificate data in the smart contract.
+Step 4:
+Use a cryptographic hashing function (e.g., keccak256) to generate a unique hash of the certificate data.
+Step 5:
+Store the certificate hash and details (ID, student name, course, etc.) on-chain in the smart contract.
+Step 6:
+Implement a function to verify the certificate by comparing the stored hash with the hash of the provided certificate data.
+Step 7:
+Users input the certificate ID and certificate data they want to verify. The smart contract compares the input data's hash with the stored hash to determine authenticity.
+Step 8:
+If the hashes match, the certificate is authentic; otherwise, it is not.
 
 ## Program:
 ```
 NAME:JEECIKASRINA M
 REG NO:212223100015
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 contract CertificateVerification {
