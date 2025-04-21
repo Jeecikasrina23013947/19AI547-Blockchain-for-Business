@@ -1,5 +1,5 @@
 ### Experiment 1: Decentralized Certificate Verification
-DATE:16.04.2024
+DATE:16.04.2025
 ## Aim:
   To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
 ## Algorithm:
