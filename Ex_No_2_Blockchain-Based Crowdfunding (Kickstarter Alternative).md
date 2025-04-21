@@ -1,21 +1,36 @@
 # Experiment 2: Blockchain-Based Crowdfunding (Kickstarter Alternative)
+DATE:16.04.2025
 ## Aim:
 To create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met.
 
 ## Algorithm:
-A project owner starts a campaign with a funding goal and deadline.
+### Step 1:
+Deploy a smart contract where the project owner sets the funding goal and deadline.
 
+### Step 2:
+Define campaign details: project owner address, funding goal, deadline, total contributions, and contributors.
 
-Contributors can send ETH to the campaign.
+### Step 3:
+Contributors send ETH to the campaign, and their contribution is recorded in the contract.
 
+### Step 4:
+The smart contract tracks the total ETH raised for the campaign.
 
-If the goal is met before the deadline, funds are released to the project owner.
+### Step 5:
+After each contribution, check if the funding goal is met before the deadline.
 
+### Step 6:
+If the goal is met before the deadline, release funds to the project owner. If the goal isn’t met before the deadline, allow contributors to withdraw their funds.
 
-If the goal is not met, contributors can withdraw their funds.
+### Step 7:
+Contributors can withdraw their funds if the goal was not met.
 
+### Step 8:
+Once the deadline passes, the campaign ends, and either funds are released to the owner or refunded to contributors.
 
 ## Program:
+NAME:JEECIKASRINA M
+REG:212223100015
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
