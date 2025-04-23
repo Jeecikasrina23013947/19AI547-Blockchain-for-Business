@@ -1,3 +1,5 @@
+### EXPEERIMENT: 3 Supply Chain Transparency for Luxury Goods
+DATE:21.04.2025
 # Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
 # Algorithm:
@@ -15,6 +17,8 @@ Buyers can verify the product’s authenticity.
 
 # Program:
 ```
+NAME:JEECCIKASRINA M
+REG NO:212223100015
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -49,6 +53,11 @@ contract LuxurySupplyChain {
 }
 ```
 # Expected Output:
+![pic 3](https://github.com/user-attachments/assets/563bc131-aa35-43c6-a8b2-a98ce97a9bd1)
+
+![ex03 pic](https://github.com/user-attachments/assets/eda13df2-5ed7-4e68-8088-c1c64ac0e4ff)
+
+
 A luxury good (e.g., a Rolex watch) is registered on-chain.
 
 
@@ -65,4 +74,4 @@ Helps prevent counterfeit luxury goods.
 Teaches real-world supply chain use cases.
 
 # RESULT : 
-
+Supply Chain Transparency for Luxury Goods experiment successfully executed. 
