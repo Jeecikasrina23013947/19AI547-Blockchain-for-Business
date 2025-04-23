@@ -1,4 +1,5 @@
 # Experiment 5: Zero-Knowledge Proof (ZK) Private Voting System
+DATE:23.04.2025
 # Aim:
 To implement a fully private and transparent voting system using Zero-Knowledge Proofs (ZKPs). This ensures that votes are counted fairly without revealing who voted for whom.
 
@@ -18,10 +19,10 @@ The contract verifies if a vote belongs to a registered voter but does not revea
 Step 4: Vote Counting
 Once voting ends, the contract reveals the final tally without linking votes to individuals.
 
-
-
 # Program:
 ```
+NAME:JEECIKASRINA
+REEG:2122223100015
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -57,6 +58,11 @@ contract ZKVoting {
 
 ```
 # Expected Output:
+![06](https://github.com/user-attachments/assets/38ef9753-7770-492a-abd3-47f7fa685a61)
+![ex06pic](https://github.com/user-attachments/assets/aabb1829-a9a7-400c-81d4-5cb301f75c5e)
+![06](https://github.com/user-attachments/assets/f1569325-6d9d-4ef7-9590-590a54505db7)
+
+
 Voters commit their votes privately.
 
 
@@ -77,3 +83,4 @@ Prevents vote tampering while maintaining voter privacy.
 Mimics real-world ZK voting applications in governance and DAOs.
 
 # RESULT: 
+Thus the experiment successfully executed.
