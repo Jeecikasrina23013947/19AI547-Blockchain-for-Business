@@ -1,10 +1,10 @@
-Experiment 4: DeFi Lending and Borrowing Protocol
+### Experiment 4: DeFi Lending and Borrowing Protocol
 DATE:28.04.2025
 
-Aim:
+### Aim:
 To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
 
-Algorithm:
+### Algorithm:
 Step 1: Setup Lending and Borrowing Mechanism Users deposit ETH into the contract as liquidity.
 
 Depositors receive interest based on their deposits.
@@ -17,7 +17,7 @@ Step 2: Implement Overcollateralization If a borrower’s collateral value drops
 
 Step 3: Allow Liquidation If collateral < liquidation threshold, liquidators can repay the borrower's debt and claim their collateral at a discount.
 
-Program: 
+### Program: 
 NAME:JEECIKASRINA M REG NO:212223100015
 ```
 // SPDX-License-Identifier: MIT
@@ -65,7 +65,7 @@ contract DeFiLending {
     }
 }
 ```
-Expected Output:
+### Expected Output:
 ![BL](https://github.com/user-attachments/assets/399228ba-b93d-4b5b-8d22-02f2511f82bd)
 ![bl2](https://github.com/user-attachments/assets/9755a3ca-7415-4f0f-8ffc-080d1285b1a1)
 ![bl1](https://github.com/user-attachments/assets/e88cb698-4e23-4b27-a3dd-e5a985a1f3ae)
